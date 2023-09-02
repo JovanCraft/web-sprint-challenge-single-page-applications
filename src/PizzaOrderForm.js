@@ -49,7 +49,7 @@ const PizzaOrderForm = () => {
 
     }
 
-    
+
 
     const change = e => {
         const { name, value, checked, type } = e.target
