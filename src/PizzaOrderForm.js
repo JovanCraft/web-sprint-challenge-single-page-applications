@@ -71,8 +71,62 @@ const PizzaOrderForm = () => {
 
                 </select><br />
 
-                <
+                <label>Toppings:</label>
+                <div>
+                    <label>
+                        <input
+                            type='checkbox'
+                            id='topping1'
+                            name='topping1'
+                            checked={toppings.topping1}
+                            onChange={change}
+                        />
+                        Topping 1
+                    </label>
+                </div>
+                <div>
+                    <label htmlFor='topping2'>
+                    <input
+                        type="checkbox"
+                        id="topping2"
+                        name="topping2"
+                        checked={toppings.topping2}
+                        onChange={change}
+                    />
+                    Topping 2
+                    </label>
+                </div>
+                <div>
+                <label htmlFor="topping3">
+                    <input
+                        type="checkbox"
+                        id="topping3"
+                        name="topping3"
+                        checked={toppings.topping3}
+                        onChange={change}
+                        />
+                        Topping 3
+                    </label>
+                </div>
+
+                <div>
+                    <label htmlFor="topping4">
+                    <input
+                        type="checkbox"
+                        id="topping4"
+                        name="topping4"
+                        checked={toppings.topping4}
+                        onChange={change}
+                    />
+                    Topping 4
+                    </label>
+                </div><br />
+
+                <button type='submit' id='order-button'>Add to Order</button>
             </form>
         </div>
     )
 }
+
+
+export default PizzaOrderForm;
