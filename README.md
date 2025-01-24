@@ -31,7 +31,7 @@ Commit your code regularly and meaningfully. This helps you in case you ever nee
 - [x] Create a forked copy of this project
 - [x] Clone your OWN version of the repository (Not BloomTech's by mistake!)
 - [x] Implement the project on the main branch, committing changes regularly
-- [ ] Push commits: `git push origin main`
+- [x] Push commits: `git push origin main`
 
 **Note on React Router versions:**
 
@@ -50,13 +50,13 @@ Your finished project must include all of the following requirements:
 - [x] The `App` component is wrapped in `BrowserRouter` - complete this requirement in the `index.js` module
 - [x] A homepage that has a "/" route and links to your form (button, nav bar, or any other type of link is acceptable but must have an id of "order-pizza")
 - [x] A order form that has a "/pizza" route and shows the form
-- [ ] A form with an id of "pizza-form"
-- [ ] A name text input field with an id of "name-input"
-- [ ] Validation for name and the error message is "name must be at least 2 characters" (Use this exact error message to make sure tests pass) ::: VERY IMPORTANT TO USE THAT EXACT ERROR MESSAGE (casing included!)
-- [ ] A dropdown for pizza size with an id of "size-dropdown"
-- [ ] A checklist for toppings - at least 4 (hint: name each separately!)
-- [ ] Text input for special instructions with an id of "special-text"
-- [ ] An Add to Order button that has an id of "order-button" and that submits the form and returns a database record of name, size, toppings and special instructions
+- [x] A form with an id of "pizza-form"
+- [x] A name text input field with an id of "name-input"
+- [x] Validation for name and the error message is "name must be at least 2 characters" (Use this exact error message to make sure tests pass) ::: VERY IMPORTANT TO USE THAT EXACT ERROR MESSAGE (casing included!)
+- [x] A dropdown for pizza size with an id of "size-dropdown"
+- [x] A checklist for toppings - at least 4 (hint: name each separately!)
+- [x] Text input for special instructions with an id of "special-text"
+- [x] An Add to Order button that has an id of "order-button" and that submits the form and returns a database record of name, size, toppings and special instructions
 
 Data should look something like
 ```
@@ -74,9 +74,9 @@ Note - your payload should look similar to the above data
 
 Implement the following tests in Cypress:
 
-- [ ] test that you can add text to the box
-- [ ] test that you can select multiple toppings
-- [ ] test that you can submit the form
+- [x] test that you can add text to the box
+- [x] test that you can select multiple toppings
+- [x] test that you can submit the form
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -117,3 +117,7 @@ One of your goals is to return a database record of the order - for this you'll 
 2. Post to [reqres](https://reqres.in/) with `axios` (the link you should use is step 4)
 3. Log data in console
 4. The URL you should use is `https://reqres.in/api/orders`. The tests are based on this URL.
+
+
+
+
